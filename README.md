@@ -66,3 +66,7 @@
   3) @classmethod
   4) @staticmethod
   5) instance methods
+* in UML: 
+  * -__armor:float=50 private
+  * for each function add on the side the "type" of the function
+  * ![img.png](img.png)
