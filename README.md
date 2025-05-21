@@ -70,3 +70,4 @@
   * -__armor:float=50 private
   * for each function add on the side the "type" of the function
   * ![img.png](img.png)
+* static methods cannot use self/cls methods/properties but self/cls can use static methods/properties 
